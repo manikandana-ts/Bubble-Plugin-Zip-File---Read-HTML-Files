@@ -1,0 +1,87 @@
+{
+    "add_hover_pressed": true,
+    "add_is_visible": true,
+    "autobinding_is_list": false,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 10,
+        "width": 10
+    },
+    "display": "Zip File Read",
+    "edit_mode_image": "//s3.amazonaws.com/appforest_uf/f1524309687001x636495631188154200/zip.png",
+    "fields": {
+        "AAE": {
+            "caption": "Zip File",
+            "editor": "DynamicValue",
+            "name": "data_source_zipfile",
+            "rank": 0,
+            "value": "file"
+        },
+        "AAN": {
+            "caption": "Add Base URL",
+            "doc": "Used for render the linked file inside the zip file",
+            "editor": "DynamicValue",
+            "name": "data_source_baseurl",
+            "optional": true,
+            "rank": 1,
+            "value": "text"
+        }
+    },
+    "icon": "ion-android-checkbox-blank",
+    "property_applications": {
+        "Background": true,
+        "Border": true,
+        "Font": true,
+        "MinWidth": true,
+        "Padding": true,
+        "resizable": true
+    },
+    "states": {
+        "AAH": {
+            "caption": "Blocks",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "is_list": true,
+            "name": "blocksdata",
+            "value": "text"
+        },
+        "AAI": {
+            "caption": "Headers",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "is_list": true,
+            "name": "headers",
+            "value": "text"
+        },
+        "AAK": {
+            "caption": "Errors",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "is_list": true,
+            "name": "errors",
+            "value": "text"
+        },
+        "AAL": {
+            "caption": "Totalfiles",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "is_list": false,
+            "name": "totalfiles",
+            "value": "number"
+        },
+        "AAM": {
+            "caption": "Index Key",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "is_list": true,
+            "name": "indexkey",
+            "value": "number"
+        }
+    },
+    "support_autobinding": false
+}
