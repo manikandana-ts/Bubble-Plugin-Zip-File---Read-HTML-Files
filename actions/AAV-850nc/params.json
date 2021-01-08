@@ -1,0 +1,23 @@
+{
+    "category": "data (things)",
+    "display": "Set value To Temp",
+    "fields": {
+        "AAa": {
+            "caption": "Input Value",
+            "editor": "DynamicValue",
+            "name": "input_value",
+            "optional": true,
+            "rank": 0,
+            "value": "text"
+        }
+    },
+    "return_value": {
+        "AAb": {
+            "caption": "Temp Value",
+            "name": "temp_value",
+            "rank": 0,
+            "value": "text"
+        }
+    },
+    "type": "server_side"
+}

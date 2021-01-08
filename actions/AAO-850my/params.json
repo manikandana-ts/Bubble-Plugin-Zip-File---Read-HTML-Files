@@ -1,0 +1,42 @@
+{
+    "category": "plugins",
+    "display": "Download files as Zip",
+    "fields": {
+        "AAP": {
+            "caption": "Exporting Zip File name",
+            "default_val": "Example file",
+            "editor": "DynamicValue",
+            "name": "exporting_zip_file_name",
+            "rank": 0,
+            "value": "text"
+        },
+        "AAQ": {
+            "caption": "Files",
+            "editor": "DynamicValue",
+            "is_list": true,
+            "name": "files",
+            "optional": true,
+            "rank": 1,
+            "value": "file"
+        },
+        "AAR": {
+            "caption": "Images",
+            "editor": "DynamicValue",
+            "is_list": true,
+            "name": "images",
+            "optional": true,
+            "rank": 2,
+            "value": "image"
+        },
+        "AAS": {
+            "caption": "External Urls",
+            "editor": "DynamicValue",
+            "is_list": true,
+            "name": "external_urls",
+            "optional": true,
+            "rank": 3,
+            "value": "text"
+        }
+    },
+    "type": "client_side"
+}

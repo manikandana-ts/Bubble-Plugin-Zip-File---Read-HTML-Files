@@ -1,6 +1,7 @@
 {
     "add_hover_pressed": true,
     "add_is_visible": true,
+    "add_large_file_upload_properties": false,
     "autobinding_is_list": false,
     "category": "visual elements",
     "default_dim": {

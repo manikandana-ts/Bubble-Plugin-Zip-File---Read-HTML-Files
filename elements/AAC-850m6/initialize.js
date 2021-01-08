@@ -44,7 +44,7 @@ function(instance, context) {
                             //console.log(result);
                             var newResult = [];
                             Object.keys(result).forEach((key, index) => {
-                                  if(index != '' && key.indexOf('.htm') >= 0){
+                                  if(index>=0 && key.indexOf('.htm') >= 0){
                                       newResult[key] = result[key];
                                       //image/js src
                                       srcWithQuotes = result[key].match(/\ssrc=(?:(?:'([^']*)')|(?:"([^"]*)")|([^\s]*))/gi);

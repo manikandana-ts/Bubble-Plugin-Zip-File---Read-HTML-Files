@@ -1,0 +1,13 @@
+{
+    "categories": {
+        "0": "data (things)",
+        "1": "media",
+        "2": "web scraping",
+        "3": "visual elements",
+        "4": "input forms"
+    },
+    "description": "Reading the content inside the Zip file and convert into filename, file-content and count.\nand\n\nYou can download as zip file from list of url's",
+    "image": "//s3.amazonaws.com/appforest_uf/f1524306604058x441882689483463800/zip.png",
+    "license": "open_source",
+    "name": "JsZip- Read HTML Files & Download"
+}
